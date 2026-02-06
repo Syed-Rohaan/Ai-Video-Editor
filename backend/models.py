@@ -4,7 +4,7 @@ from enum import Enum
 
 class TextPosition(str, Enum):
     top = "top"
-    center = "center"
+    center = "center" # type: ignore
     bottom = "bottom"
 
 
